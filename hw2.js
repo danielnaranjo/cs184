@@ -6,7 +6,7 @@ var out = "2";
 var n = 3;
 var i = 2;
 
-while(n < 100) {
+while(n < 550) { // Son los primero 100 numeros, NO se piden del 1 al 100. 
 	for(i=2; i<n; i++) {
 	if(n%i==0)
 		break;
